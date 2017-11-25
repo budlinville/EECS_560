@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Lab4</title>
+    <script type = "text/javascript">
+      function checkInfo() {
+        var name = myForm.username.value;
+        var password = myForm.password.value;
+
+        if (name == "eecs448" && password == "password") {
+          window.open("https://people.eecs.ku.edu/~alinvill/Lab_4/success.html");
+        } else {
+          alert("Incorrect username or password.");
+        }
+      }
+    </script>
+    <style type = "text/css">
+    .red {
+      background:red;
+    }
+    </style>
+  </head>
+  <body class = "red">
+    <h1>EECS 448 - Lab 4</h1>
+  </br>
+  <form name = "myForm">
+    <input type = "text" name = "username">
+    <input type = "password" name = "password">
+    <input type = "submit" name = "submit" value = "Submit" onclick = "checkInfo()">
+  </form>
+  </body>
+</html>

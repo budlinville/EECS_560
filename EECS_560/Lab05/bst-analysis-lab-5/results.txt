@@ -1,0 +1,307 @@
+MAX_INT value: 10
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 50
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000001 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000001 seconds
+MAX_INT value: 100
+	Test 1: 0.000001 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000001 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000001 seconds
+MAX_INT value: 500
+	Test 1: 0.000001 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 1000
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000001 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000001 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000001 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 5000
+	Test 1: 0.000001 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000001 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000001 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000001 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 10000
+	Test 1: 0.000000 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000001 seconds
+	Test 7: 0.000001 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 50000
+	Test 1: 0.000001 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000001 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000001 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000001 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 100000
+	Test 1: 0.000001 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000001 seconds
+	Test 6: 0.000001 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+echo "implement the main function to analyze delete element to BST"
+implement the main function to analyze delete element to BST
+g++ -Wall -g -pedantic --std=c++11 -c analyzeDelete.cpp -o analyzeDelete.o
+g++ -Wall -g -pedantic --std=c++11 -o analyzeDelete analyzeDelete.o bst.o util.o
+./analyzeDelete
+MAX_INT value: 10
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 50
+	Test 1: 0.000001 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 100
+	Test 1: 0.000001 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000001 seconds
+	Test 6: 0.000001 seconds
+	Test 7: 0.000001 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000001 seconds
+	Test 10: 0.000001 seconds
+MAX_INT value: 500
+	Test 1: 0.000001 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000001 seconds
+	Test 4: 0.000001 seconds
+	Test 5: 0.000001 seconds
+	Test 6: 0.000001 seconds
+	Test 7: 0.000001 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000001 seconds
+	Test 10: 0.000001 seconds
+MAX_INT value: 1000
+	Test 1: 0.000000 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000001 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000001 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 5000
+	Test 1: 0.000001 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000001 seconds
+	Test 4: 0.000001 seconds
+	Test 5: 0.000001 seconds
+	Test 6: 0.000001 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000001 seconds
+	Test 10: 0.000001 seconds
+MAX_INT value: 10000
+	Test 1: 0.000000 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000001 seconds
+MAX_INT value: 50000
+	Test 1: 0.000003 seconds
+	Test 2: 0.000003 seconds
+	Test 3: 0.000002 seconds
+	Test 4: 0.000002 seconds
+	Test 5: 0.000002 seconds
+	Test 6: 0.000002 seconds
+	Test 7: 0.000002 seconds
+	Test 8: 0.000002 seconds
+	Test 9: 0.000002 seconds
+	Test 10: 0.000002 seconds
+MAX_INT value: 100000
+	Test 1: 0.000001 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000001 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000001 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000001 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+echo "implement the main function to analyze delete element to BST"
+implement the main function to analyze delete element to BST
+g++ -Wall -g -pedantic --std=c++11 -c analyzeExists.cpp -o analyzeExists.o
+g++ -Wall -g -pedantic --std=c++11 -o analyzeExists analyzeExists.o  bst.o util.o
+./analyzeExists
+MAX_INT value: 10
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 50
+	Test 1: 0.000001 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000001 seconds
+	Test 4: 0.000001 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000001 seconds
+	Test 7: 0.000001 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 100
+	Test 1: 0.000002 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000002 seconds
+	Test 4: 0.000001 seconds
+	Test 5: 0.000001 seconds
+	Test 6: 0.000001 seconds
+	Test 7: 0.000001 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000001 seconds
+	Test 10: 0.000001 seconds
+MAX_INT value: 500
+	Test 1: 0.000009 seconds
+	Test 2: 0.000009 seconds
+	Test 3: 0.000008 seconds
+	Test 4: 0.000008 seconds
+	Test 5: 0.000008 seconds
+	Test 6: 0.000008 seconds
+	Test 7: 0.000009 seconds
+	Test 8: 0.000007 seconds
+	Test 9: 0.000007 seconds
+	Test 10: 0.000008 seconds
+MAX_INT value: 1000
+	Test 1: 0.000011 seconds
+	Test 2: 0.000011 seconds
+	Test 3: 0.000011 seconds
+	Test 4: 0.000010 seconds
+	Test 5: 0.000011 seconds
+	Test 6: 0.000010 seconds
+	Test 7: 0.000010 seconds
+	Test 8: 0.000010 seconds
+	Test 9: 0.000010 seconds
+	Test 10: 0.000010 seconds
+MAX_INT value: 5000
+	Test 1: 0.000081 seconds
+	Test 2: 0.000079 seconds
+	Test 3: 0.000079 seconds
+	Test 4: 0.000080 seconds
+	Test 5: 0.000081 seconds
+	Test 6: 0.000078 seconds
+	Test 7: 0.000078 seconds
+	Test 8: 0.000081 seconds
+	Test 9: 0.000079 seconds
+	Test 10: 0.000079 seconds
+MAX_INT value: 10000
+	Test 1: 0.000213 seconds
+	Test 2: 0.000212 seconds
+	Test 3: 0.000211 seconds
+	Test 4: 0.000201 seconds
+	Test 5: 0.000198 seconds
+	Test 6: 0.000200 seconds
+	Test 7: 0.000202 seconds
+	Test 8: 0.000371 seconds
+	Test 9: 0.000201 seconds
+	Test 10: 0.000200 seconds
+MAX_INT value: 50000
+	Test 1: 0.000788 seconds
+	Test 2: 0.000778 seconds
+	Test 3: 0.000777 seconds
+	Test 4: 0.000788 seconds
+	Test 5: 0.001074 seconds
+	Test 6: 0.000796 seconds
+	Test 7: 0.000787 seconds
+	Test 8: 0.000790 seconds
+	Test 9: 0.000784 seconds
+	Test 10: 0.000796 seconds
+MAX_INT value: 100000
+	Test 1: 0.000965 seconds
+	Test 2: 0.000968 seconds
+	Test 3: 0.000964 seconds
+	Test 4: 0.000966 seconds
+	Test 5: 0.000981 seconds
+	Test 6: 0.000973 seconds
+	Test 7: 0.000968 seconds
+	Test 8: 0.000963 seconds
+	Test 9: 0.000967 seconds
+	Test 10: 0.000955 seconds

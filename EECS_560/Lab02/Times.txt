@@ -1,0 +1,415 @@
+./analyzeAdd
+MAX_INT value: 10
+	Test 1: 0.000000 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 50
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000001 seconds
+MAX_INT value: 100
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000002 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 500
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000001 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 1000
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000001 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000001 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 5000
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 10000
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000001 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 50000
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 100000
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+
+
+
+./analyzeDelete
+MAX_INT value: 10
+	Test 1: 0.000001 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000001 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000000 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 50
+	Test 1: 0.000000 seconds
+	Test 2: 0.000000 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000000 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000001 seconds
+	Test 7: 0.000001 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 100
+	Test 1: 0.000001 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000000 seconds
+	Test 4: 0.000001 seconds
+	Test 5: 0.000001 seconds
+	Test 6: 0.000000 seconds
+	Test 7: 0.000000 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000000 seconds
+	Test 10: 0.000000 seconds
+MAX_INT value: 500
+	Test 1: 0.000003 seconds
+	Test 2: 0.000003 seconds
+	Test 3: 0.000003 seconds
+	Test 4: 0.000003 seconds
+	Test 5: 0.000003 seconds
+	Test 6: 0.000002 seconds
+	Test 7: 0.000003 seconds
+	Test 8: 0.000003 seconds
+	Test 9: 0.000003 seconds
+	Test 10: 0.000003 seconds
+MAX_INT value: 1000
+	Test 1: 0.000006 seconds
+	Test 2: 0.000006 seconds
+	Test 3: 0.000005 seconds
+	Test 4: 0.000006 seconds
+	Test 5: 0.000006 seconds
+	Test 6: 0.000006 seconds
+	Test 7: 0.000006 seconds
+	Test 8: 0.000006 seconds
+	Test 9: 0.000005 seconds
+	Test 10: 0.000006 seconds
+MAX_INT value: 5000
+	Test 1: 0.000028 seconds
+	Test 2: 0.000028 seconds
+	Test 3: 0.000028 seconds
+	Test 4: 0.000028 seconds
+	Test 5: 0.000028 seconds
+	Test 6: 0.000028 seconds
+	Test 7: 0.000028 seconds
+	Test 8: 0.000028 seconds
+	Test 9: 0.000028 seconds
+	Test 10: 0.000028 seconds
+MAX_INT value: 10000
+	Test 1: 0.000056 seconds
+	Test 2: 0.000055 seconds
+	Test 3: 0.000055 seconds
+	Test 4: 0.000055 seconds
+	Test 5: 0.000056 seconds
+	Test 6: 0.000055 seconds
+	Test 7: 0.000056 seconds
+	Test 8: 0.000055 seconds
+	Test 9: 0.000055 seconds
+	Test 10: 0.000055 seconds
+MAX_INT value: 50000
+	Test 1: 0.000276 seconds
+	Test 2: 0.000278 seconds
+	Test 3: 0.000278 seconds
+	Test 4: 0.000277 seconds
+	Test 5: 0.000278 seconds
+	Test 6: 0.000279 seconds
+	Test 7: 0.000246 seconds
+	Test 8: 0.000248 seconds
+	Test 9: 0.000247 seconds
+	Test 10: 0.000239 seconds
+MAX_INT value: 100000
+	Test 1: 0.000481 seconds
+	Test 2: 0.000481 seconds
+	Test 3: 0.000486 seconds
+	Test 4: 0.000483 seconds
+	Test 5: 0.000589 seconds
+	Test 6: 0.000484 seconds
+	Test 7: 0.000491 seconds
+	Test 8: 0.000481 seconds
+	Test 9: 0.000481 seconds
+	Test 10: 0.000489 seconds
+
+
+
+./analyzeGetPositionList
+MAX_INT value: 10
+	Test 1: 0.000002 seconds
+	Test 2: 0.000001 seconds
+	Test 3: 0.000001 seconds
+	Test 4: 0.000001 seconds
+	Test 5: 0.000000 seconds
+	Test 6: 0.000001 seconds
+	Test 7: 0.000001 seconds
+	Test 8: 0.000001 seconds
+	Test 9: 0.000001 seconds
+	Test 10: 0.000001 seconds
+MAX_INT value: 50
+	Test 1: 0.000006 seconds
+	Test 2: 0.000007 seconds
+	Test 3: 0.000007 seconds
+	Test 4: 0.000007 seconds
+	Test 5: 0.000007 seconds
+	Test 6: 0.000007 seconds
+	Test 7: 0.000007 seconds
+	Test 8: 0.000008 seconds
+	Test 9: 0.000006 seconds
+	Test 10: 0.000007 seconds
+MAX_INT value: 100
+	Test 1: 0.000021 seconds
+	Test 2: 0.000021 seconds
+	Test 3: 0.000022 seconds
+	Test 4: 0.000025 seconds
+	Test 5: 0.000022 seconds
+	Test 6: 0.000021 seconds
+	Test 7: 0.000022 seconds
+	Test 8: 0.000021 seconds
+	Test 9: 0.000020 seconds
+	Test 10: 0.000022 seconds
+MAX_INT value: 500
+	Test 1: 0.000446 seconds
+	Test 2: 0.000444 seconds
+	Test 3: 0.000441 seconds
+	Test 4: 0.000445 seconds
+	Test 5: 0.000443 seconds
+	Test 6: 0.000442 seconds
+	Test 7: 0.000469 seconds
+	Test 8: 0.000442 seconds
+	Test 9: 0.000442 seconds
+	Test 10: 0.000441 seconds
+MAX_INT value: 1000
+	Test 1: 0.001932 seconds
+	Test 2: 0.001744 seconds
+	Test 3: 0.001774 seconds
+	Test 4: 0.001735 seconds
+	Test 5: 0.001724 seconds
+	Test 6: 0.001790 seconds
+	Test 7: 0.002220 seconds
+	Test 8: 0.001736 seconds
+	Test 9: 0.001723 seconds
+	Test 10: 0.001727 seconds
+MAX_INT value: 5000
+	Test 1: 0.036696 seconds
+	Test 2: 0.035716 seconds
+	Test 3: 0.034922 seconds
+	Test 4: 0.036803 seconds
+	Test 5: 0.037168 seconds
+	Test 6: 0.035060 seconds
+	Test 7: 0.034771 seconds
+	Test 8: 0.034641 seconds
+	Test 9: 0.034730 seconds
+	Test 10: 0.034463 seconds
+MAX_INT value: 10000
+	Test 1: 0.138137 seconds
+	Test 2: 0.136714 seconds
+	Test 3: 0.135948 seconds
+	Test 4: 0.136509 seconds
+	Test 5: 0.136147 seconds
+	Test 6: 0.135568 seconds
+	Test 7: 0.135720 seconds
+	Test 8: 0.136306 seconds
+	Test 9: 0.136253 seconds
+	Test 10: 0.135806 seconds
+MAX_INT value: 50000
+	Test 1: 3.415677 seconds
+	Test 2: 3.412128 seconds
+	Test 3: 3.424954 seconds
+	Test 4: 3.430901 seconds
+	Test 5: 3.413954 seconds
+	Test 6: 3.432737 seconds
+	Test 7: 3.418588 seconds
+	Test 8: 3.410717 seconds
+	Test 9: 3.424716 seconds
+	Test 10: 3.422073 seconds
+MAX_INT value: 100000
+	Test 1: 13.669055 seconds
+	Test 2: 13.646751 seconds
+	Test 3: 13.720815 seconds
+	Test 4: 13.738673 seconds
+	Test 5: 13.763976 seconds
+	Test 6: 13.718570 seconds
+	Test 7: 13.658247 seconds
+	Test 8: 13.758285 seconds
+	Test 9: 13.710800 seconds
+	Test 10: 13.696254 seconds
+
+
+
+
+MAX_INT value: 100
+	Test 1: 
+		M1 = M2: 0.000001 seconds
+		M1 = M1: 0.000143 seconds
+	Test 2: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.000140 seconds
+	Test 3: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.000138 seconds
+	Test 4: 
+		M1 = M2: 0.000001 seconds
+		M1 = M1: 0.000146 seconds
+	Test 5: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.000145 seconds
+MAX_INT value: 500
+	Test 1: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.003526 seconds
+	Test 2: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.003503 seconds
+	Test 3: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.003487 seconds
+	Test 4: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.003521 seconds
+	Test 5: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.003478 seconds
+MAX_INT value: 1000
+	Test 1: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.014223 seconds
+	Test 2: 
+		M1 = M2: 0.000001 seconds
+		M1 = M1: 0.014249 seconds
+	Test 3: 
+		M1 = M2: 0.000001 seconds
+		M1 = M1: 0.014288 seconds
+	Test 4: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.014310 seconds
+	Test 5: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.014031 seconds
+MAX_INT value: 5000
+	Test 1: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.350721 seconds
+	Test 2: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.350506 seconds
+	Test 3: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.350560 seconds
+	Test 4: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.350849 seconds
+	Test 5: 
+		M1 = M2: 0.000000 seconds
+		M1 = M1: 0.350706 seconds
+MAX_INT value: 10000
+	Test 1: 
+		M1 = M2: 0.000001 seconds
+		M1 = M1: 1.420390 seconds
+	Test 2: 
+Makefile:59: recipe for target 'analyze-matrix-equality' failed
+
+
+
+
+MAX_INT value: 100
+	Test 1: 0.001017 seconds
+	Test 2: 0.000990 seconds
+	Test 3: 0.001010 seconds
+	Test 4: 0.000997 seconds
+	Test 5: 0.000989 seconds
+MAX_INT value: 500
+	Test 1: 0.103086 seconds
+	Test 2: 0.103093 seconds
+	Test 3: 0.103802 seconds
+	Test 4: 0.103550 seconds
+	Test 5: 0.102876 seconds
+MAX_INT value: 1000
+	Test 1: 0.806190 seconds
+	Test 2: 0.797385 seconds
+	Test 3: 0.799598 seconds
+	Test 4: 0.801275 seconds
+	Test 5: 0.798497 seconds
+MAX_INT value: 5000
+	Test 1: 100.732378 seconds
+	Test 2: 100.456923 seconds
+.
+.
+.
+MAX_INT value: 10000
+	Test 1: 792.140705 seconds
+
+
+
+
+
