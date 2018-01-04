@@ -103,11 +103,21 @@ void initialize(Graph*  &myGraph, int argCount, char** args){
       cout << "Using data from " << args[1] << endl;
       inputData.open(args[1], ifstream::in);
     }
-    int** inputDataArr = new int*[size];
 
     // Implement the logic of parsing the data file into a 2D array to be passed
     // into the constructor
-    IMPLEMENT_ME();
+    inputData >> size;
+
+    int** inputDataArr = new int*[size];
+    for (int i = 0; i < size; i++) {
+      inputDataArr[i] = new int[size];
+    }
+
+    for (int i = 0; i < size; i++) {
+      for (int j = 0; j < size; j++) {
+        inputData >> inputDataArr[i][j];
+      }
+    }
     //    getline(inputData, s);
     //    cout << s;
     //CAUTION: ensure you deep copy inputDataArr inside your constructor

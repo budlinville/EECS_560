@@ -3,7 +3,7 @@ STUDENT_ID=a301l871
 GCC := g++
 GCCFLAGS=-Wall -g -pedantic --std=c++11
 ARCHIVE_FOLDER := $(STUDENT_ID)-graphs-lab11
-FILES=Makefile src test include
+FILES=Makefile src test include a301l871-graphs-lab11-writeup.pdf
 
 SRCDIR := src
 BUILDDIR := build

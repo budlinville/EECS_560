@@ -5,7 +5,7 @@
 
 class Node{
   private:
-    Edge* m_value;    //stored value of type integer
+    Edge *m_value;    //stored value of type integer
     Node* m_next;   //pointer to next node in list
     Node* m_prev;
     int position[2];
@@ -15,7 +15,7 @@ class Node{
 
     Node(Edge *value, Node *nextNode, Node *prevNode);
 
-    Node(Edge value, Node *nextNode, Node *prevNode, int x, int y);
+    Node(Edge *value, Node *nextNode, Node *prevNode, int x, int y);
 
     void setValue(Edge *val);
 
@@ -29,15 +29,15 @@ class Node{
 
     Node* getPrev();
 
-    void setXY(int val1, int val2);
+    //void setXY(int val1, int val2);
 
-    void setX(int val);
+    //void setX(int val);
 
-    int getX();
+    //int getX();
 
-    void setY(int val);
+    //void setY(int val);
 
-    int getY();
+    //int getY();
 };
 
 #endif

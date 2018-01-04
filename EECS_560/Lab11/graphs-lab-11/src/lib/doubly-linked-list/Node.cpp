@@ -1,7 +1,7 @@
 #include "../../../include/lib/doubly-linked-list/Node.hpp"
 
 Node::Node(){
-  m_value = nullptr;
+  m_value =  new Edge(0, 0, 0);
   m_next = nullptr;
   m_prev = nullptr;
   int position[2] = {0, 0};
@@ -16,8 +16,8 @@ Node::Node(Edge *value, Node *nextNode, Node *prevNode){
   position[0] = position[0];  //to avoid warning message
 }
 
-Node::Node(Edge value, Node *nextNode, Node *prevNode, int x, int y){
-  m_value = &value;
+Node::Node(Edge *value, Node *nextNode, Node *prevNode, int x, int y){
+  m_value = value;
   m_next = nextNode;
   m_prev = prevNode;
   int position[2] = {x, y};
@@ -47,24 +47,12 @@ Node* Node::getNext() {
 Node* Node::getPrev() {
   return m_prev;
 }
-
-void Node::setXY(int val1, int val2){
-  position[0] = val1;
-  position[1] = val2;
-}
-
-void Node::setX(int val){
-  position[0] = val;
-}
-
+/*
 int Node::getX() {
-  return position[0];
-}
-
-void Node::setY(int val){
-  position[1] = val;
+  return m_value->v1;
 }
 
 int Node::getY() {
-  return position[1];
+  return m_value->v2;
 }
+*/

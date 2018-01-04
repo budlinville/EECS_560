@@ -38,19 +38,28 @@ class DoublyLinkedList {
    * Should throw an exception if the value of position
    * is not in range of [0, this.size()]
    */
-  void add(Edge elem, int position);
+  void add(Edge *elem, int position);
+
+  void addBack(Edge *elem);
+
+  void addFront(Edge *elem);
 
   /**
    * Deletes all the occurences of the elem from the list
    */
-  void deleteAll(Edge elem);
+  void deleteAll(Edge *elem);
 
   /**
    * Should find the first occurence of the position of the element in the list.
    * returns -1 if the element does not exist in the list
    */
-  int find(Edge elem);
+  int find(Edge *elem);
 
+  Node* getNodeAt(int index);
+
+  Node* getFront();
+
+  Node* getBack();
 
   /**
    * Prints all the elements of the list with delimited with space

@@ -34,14 +34,14 @@ int DoublyLinkedList::size(){
   return m_size;
 }
 
-void DoublyLinkedList::add(Edge elem, int position) {
+void DoublyLinkedList::add(Edge *elem, int position) {
   try {
     if (position < 0 || position > m_size) {
       throw std::out_of_range ("Position is out of range");
     }
 
     Node* newNode = new Node();
-    newNode->setValue(&elem);
+    newNode->setValue(elem);
     Node* temp = m_front;
     int ix = position - 1;
 
@@ -74,13 +74,45 @@ void DoublyLinkedList::add(Edge elem, int position) {
   }
 }
 
-void DoublyLinkedList::deleteAll(Edge elem) {
+void DoublyLinkedList::addBack(Edge *elem) {
+  Node* newNode = new Node();
+  newNode->setValue(elem);
+  m_size++;
+
+  if (m_front == nullptr) {           //if empty list
+    m_front = newNode;
+    m_back = newNode;
+    return;
+  }
+
+  newNode->setPrev(m_back);
+  m_back->setNext(newNode);
+  m_back = newNode;
+}
+
+void DoublyLinkedList::addFront(Edge *elem) {
+  Node* newNode = new Node();
+  newNode->setValue(elem);
+  m_size++;
+
+  if (m_front == nullptr) {           //if empty list
+    m_front = newNode;
+    m_back = newNode;
+    return;
+  }
+
+  newNode->setNext(m_front);
+  m_front->setPrev(newNode);
+  m_front = newNode;
+}
+
+void DoublyLinkedList::deleteAll(Edge *elem) {
   Node* temp =  m_front;
   Node* prev = nullptr;
   Node* next = nullptr;
 
   while (temp->getNext() != nullptr) {
-    if (elem == *temp->getValue()) {
+    if (elem == temp->getValue()) {
       //DELETE IT
       prev = temp->getPrev();
       next = temp->getNext();
@@ -110,11 +142,11 @@ void DoublyLinkedList::deleteAll(Edge elem) {
   }
 }
 
-int DoublyLinkedList::find(Edge elem) {
+int DoublyLinkedList::find(Edge *elem) {
   Node* temp = m_front;
 
   for (int i = 0; i < m_size; i++) {
-    if (*temp->getValue() == elem) {
+    if (temp->getValue() == elem) {
       //return i;
       //std::cout << "Element " << elem << " found at position " << i << "." << std::endl;
       return 0;  //if I wanted to find all occurances, comment out this line
@@ -125,7 +157,23 @@ int DoublyLinkedList::find(Edge elem) {
   return -1;
 }
 
+Node* DoublyLinkedList::getNodeAt(int index) {
+  if (index < 0 || index >= m_size || m_front == nullptr)
+    return nullptr;
+
+  Node* cur = m_front;
+  for (int i = 0; i < index; i++) {
+    cur = cur->getNext();
+  }
+
+  return cur;
+}
+
 void DoublyLinkedList::print() {
+  if (m_front == nullptr) {
+    return;
+  }
+
   Node* incr = m_front;    //incrementer
 
   do {
@@ -134,4 +182,12 @@ void DoublyLinkedList::print() {
   } while (incr != nullptr);
 
   std::cout << std::endl;
+}
+
+Node* DoublyLinkedList::getFront() {
+  return m_front;
+}
+
+Node* DoublyLinkedList::getBack() {
+  return m_back;
 }

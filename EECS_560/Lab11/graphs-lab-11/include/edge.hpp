@@ -17,7 +17,13 @@ public:
    */
   Edge(int a, int b, int c): v1(a), v2(b), cost(c) {}
 
-  void print() { std::cout << "(" << v1 << ", " << v2 << ") { " << cost << " }"; }
+  void print() { std::cout << "(" << v1 << ", " << v2 << "){ " << cost << " } "; }
+
+  int getV1 () { return v1; }
+
+  int getV2 () { return v2; }
+
+  int getCost () { return cost; }
 
   bool operator== (const Edge that) {return (v1 = that.v1 && v2 == that.v2 && cost == that.cost);}
 };
